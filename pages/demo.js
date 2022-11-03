@@ -24,7 +24,7 @@ export default function demo() {
     <div className="w-full h-full bg-gray-300">
         <div className="w-full h-full flex flex-col justify-center items-center p-4 transition-all">
             <h1 className="text-4xl font-bold">{data.title}</h1>
-            <a className="text-3xl font-bold m-10 text-green-400 hover:underline hover:text-green-600" href="../">{data.name}</a>
+            <a className="text-3xl font-bold m-10 text-green-400 hover:underline hover:text-green-600" style={{fontSize: 30, margin: 40, color: '#68d391'}} href="../">{data.name}</a>
             <p className="text-xl md:my-10 mx-4">{data.para1}</p>
             <h2 className="text-4xl font-bold">Tech Stack</h2>
             <div className="w-full  flex justify-center items-center p-4">
