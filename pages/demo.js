@@ -24,36 +24,36 @@ export default function demo() {
     <div className="w-full h-full bg-gray-300">
         <div className="w-full h-full flex flex-col justify-center items-center p-4 transition-all">
             <h1 className="text-4xl font-bold">{data.title}</h1>
-            <a className="text-3xl font-bold m-10 text-green-400 hover:underline hover:text-green-600" href="../">{data.name}</a>
+            <h2 className="text-3xl font-bold m-10 text-green-400 hover:underline hover:text-green-600" href="../">{data.name}</h2>
             <p className="text-xl md:my-10 mx-4">{data.para1}</p>
-            <h1 className="text-4xl font-bold">Tech Stack</h1>
+            <h2 className="text-4xl font-bold">Tech Stack</h2>
             <div className="w-full  flex justify-center items-center p-4">
                 <div className="w-full h-full flex flex-col justify-center items-center p-4">
-                    <h1 className="text-2xl font-bold">Frontend</h1>
+                    <h3 className="text-2xl font-bold">Frontend</h3>
                     <p className="text-xl">{data.techStack.frontend}</p>
                 </div>
                 <div className="w-full h-full flex flex-col justify-center items-center p-4">
-                    <h1 className="text-2xl font-bold">Backend</h1>
+                    <h3 className="text-2xl font-bold">Backend</h3>
                     <p className="text-xl">{data.techStack.backend}</p>
                 </div>
                 <div className="w-full h-full flex flex-col justify-center items-center p-4">
-                    <h1 className="text-2xl font-bold">Database</h1>
+                    <h3 className="text-2xl font-bold">Database</h3>
                     <p className="text-xl">{data.techStack.database}</p>
                 </div>
                 <div className="w-full h-full flex flex-col justify-center items-center p-4">
-                    <h1 className="text-2xl font-bold">Styling</h1>
+                    <h3 className="text-2xl font-bold">Styling</h3>
                     <p className="text-xl">{data.techStack.styling}</p>
                 </div>
                 <div className="w-full h-full flex flex-col justify-center items-center p-4">
-                    <h1 className="text-2xl font-bold">CMS</h1>
+                    <h3 className="text-2xl font-bold">CMS</h3>
                     <p className="text-xl">{data.techStack.cms}</p>
                 </div>
                 <div className="w-full h-full flex flex-col justify-center items-center p-4">
-                    <h1 className="text-2xl font-bold">Deployed on</h1>
+                    <h3 className="text-2xl font-bold">Deployed on</h3>
                     <p className="text-xl">{data.techStack.hosting}</p>
                 </div>
                 <div className="w-full h-full flex flex-col justify-center items-center p-4">
-                    <h1 className="text-2xl font-bold">Authentication</h1>
+                    <h3 className="text-2xl font-bold">Authentication</h3>
                     <p className="text-xl">{data.techStack.auth}</p>
                 </div>
             </div>
