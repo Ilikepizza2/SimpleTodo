@@ -1,5 +1,5 @@
 import { supabase } from '../lib/initSupabase'
-import { Auth } from '@supabase/ui'
+import { Auth, ThemeSupa } from '@supabase/ui'
 import TodoList from '../components/TodoList'
 
 export default function IndexPage() {
@@ -15,6 +15,8 @@ export default function IndexPage() {
               providers={['discord', 'github']}
               socialLayout="horizontal"
               socialButtonSize="xlarge"
+              appearance={{ theme: ThemeSupa }}
+              theme="dark"
             />
           </div>
         </div>

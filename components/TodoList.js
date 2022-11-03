@@ -48,7 +48,7 @@ export default function Todos({ user }) {
     loading?
      <h1>Loading...</h1> :
     <div className="w-full">
-      <h1 className="mb-12">An unoptimized Todo List</h1>
+      <h1 className="mb-12">A simple Todo List</h1>
       <div className="flex gap-2 my-2">
         <input
           className="rounded w-full p-2"
